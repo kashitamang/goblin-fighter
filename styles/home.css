@@ -6,11 +6,11 @@ header {
 body {
     background-color: bisque;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .adventurer img {
-    width: 400px;
+    width: 500px;
 }
 
 .adventurer {
