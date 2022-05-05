@@ -1,6 +1,8 @@
 // import functions and grab DOM elements
+import { renderGoblin } from './utils.js';
 
 const form = document.querySelector('form');
+const goblinListEl = document.querySelector('.goblins');
 
 //console.log(form);
 // let state
@@ -27,10 +29,30 @@ form.addEventListener('submit', (e) => {
     //add that object to the array of goblins in state 
     goblins.push(newGoblin);
     // update DOM to reflect the new state
-    //displayGoblins();
+    displayGoblins();
+    //reset form
+    form.reset();
 });
 
+function displayGoblins(){
+  //update a list 
+  //clear out the list DOM
+    goblinListEl.textContent = '';
+    
+    //loop through the goblins
+    for (let goblin of goblins) {
+        const goblinEl = renderGoblin(goblin);
+        //append element to the DOM 
+        goblinEl.addEventListener('click', () => {
+            //goblinClickHandler(goblin);
+        });
+        //make each goblin clickable
+        goblinListEl.append(goblinEl);
+    }
+    
+}
 
+displayGoblins();
 
 
 
