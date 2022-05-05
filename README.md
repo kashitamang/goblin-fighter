@@ -38,11 +38,15 @@ Additional considerations:
 ✅ div for our goblin list
 
 displayGoblins -- clear out the list, and render a goblin element for each goblin in your list of goblins
+
 renderGoblin(goblin) - create a goblin element for specific goblin object
+
 goblinClickHandler - takes care of the game logic when goblins are clicked
+
 To Do List
+
 Get everything done that you've done before -- i.e. stuff that looks like yesterday's labs
- Set up your HTML with your defeatedGoblins span, your playerHP span, your form for adding new goblins
+✅ Set up your HTML with your defeatedGoblins span, your playerHP span, your form for adding new goblins
  Add your state variables in app.js
  Add event listener for your new goblin form
  TDD your renderGoblin function (TDD optional but helpful) -- should return an HTML element with the goblin's name and hp
@@ -50,6 +54,8 @@ Get everything done that you've done before -- i.e. stuff that looks like yester
 _ You know you're done here when you can add new goblins to the page_
 
 Deal with you click handler - one if / else at time
+
+
 Goblin Click Handler Logic
 // if goblin's hp is 0, return
 // if(goblin.hp === 0) return;
