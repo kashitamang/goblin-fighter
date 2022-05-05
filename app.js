@@ -17,7 +17,7 @@ form.addEventListener('submit', (e) => {
     const data = new FormData(form);
     const goblinName = data.get('goblin-name');
 
-    console.log('you are clicking submit');
+    console.log(`you are clicking the submit button: ${goblinName}`);
     // get user input
     const newGoblin = {
         name: goblinName,

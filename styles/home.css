@@ -93,3 +93,7 @@ form {
     transform: rotate(180deg);
     opacity: 50%;
 }
+
+.dead {
+    opacity: 50%;
+}

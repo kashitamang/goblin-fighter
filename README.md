@@ -48,7 +48,7 @@ To Do List
 Get everything done that you've done before -- i.e. stuff that looks like yesterday's labs
 ✅ Set up your HTML with your defeatedGoblins span, your playerHP span, your form for adding new goblins
  Add your state variables in app.js
- Add event listener for your new goblin form
+ ✅ Add event listener for your new goblin form
  TDD your renderGoblin function (TDD optional but helpful) -- should return an HTML element with the goblin's name and hp
  Add displayGoblins function which calls renderGoblin for each goblin in your list of goblins
 _ You know you're done here when you can add new goblins to the page_
