@@ -69,7 +69,6 @@ body {
     background-color: rebeccapurple;
     padding: 20px;
     border-radius: 15px;
-
 }
 
 form {
@@ -91,11 +90,7 @@ form {
     font-size: 3rem;
 }
 
-.dead {
-    opacity: .2;
-    cursor: default;
-}
-
 .game-over {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
+    opacity: 50%;
 }
