@@ -31,19 +31,11 @@ Additional considerations:
 
 ✅
 🎁HTML Elements (on page load)🎁
-input for adding new goblins
-button for adding new goblins
-span for tracking defeated goblins
-span for tracking player HP
-<div> for our goblin list
-
-HTML Elements (on page load)
-input for adding new goblins
-button for adding new goblins
-span for tracking defeated goblins
-span for tracking player HP
-<div> for our goblin list
-Functions
+✅ input for adding new goblins
+✅ button for adding new goblins
+✅ span for tracking defeated goblins
+✅ span for tracking player HP
+✅ div for our goblin list
 
 displayGoblins -- clear out the list, and render a goblin element for each goblin in your list of goblins
 renderGoblin(goblin) - create a goblin element for specific goblin object
