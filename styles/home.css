@@ -1,1 +1,98 @@
 /* add home page styles here */
+header {
+    background-color: pink;
+}
+
+body {
+    background-color: bisque;
+}
+
+.adventurer img {
+    width: 500px;
+}
+
+.adventurer {
+    color: black;
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 5px;
+}
+
+.adventurer p {
+    background-color: chartreuse;
+    border-radius: 15px;
+    border-color: black;
+    padding: 20px;
+    color: rgb(2, 101, 2);
+}
+
+.adventurer-stats {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.goblin-stats {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goblin-stats input, .goblin-stats button {
+    height: 100px;
+}
+
+.goblin-stats button {
+    font-size: 2em;
+}
+.goblin-stats input {
+    font-size: 3rem;
+    width: 80%
+}
+
+.defeated-goblins { 
+    text-align: center;
+} 
+
+.defeated-goblins p {
+    font-size: 2rem;
+    color: rgb(0, 120, 122);
+    background-color: rgb(168, 246, 250);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+form {
+    padding: 20px;
+    display: flex;
+}
+
+
+.goblin {
+    cursor: pointer;
+    border: solid 3px black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: pink;
+    justify-self: flex-end;
+    font-size: 3rem;
+}
+
+.game-over {
+    transform: rotate(180deg);
+    opacity: 50%;
+}
+
+.dead {
+    opacity: 50%;
+}
