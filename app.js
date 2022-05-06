@@ -61,7 +61,7 @@ function displayGoblins(){
 displayGoblins();
 
 function goblinClickHandler(goblin) {
-    console.log(`you are clicking on the goblin named: ${goblin.name}`);
+    //console.log(`you are clicking on the goblin named: ${goblin.name}`);
 // if goblin's hp is 0, return
     if (goblin.hp === 0) return;
     // if player hp is 0, return
