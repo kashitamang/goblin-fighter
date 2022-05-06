@@ -1,6 +1,5 @@
-// // IMPORT MODULES under test here:
-// //import { example } from '../example.js';
-// import { renderGoblin } from '../utils.js';
+// IMPORT MODULES under test here:
+//import { example } from '../example.js';
 
 // const test = QUnit.test;
 
@@ -18,10 +17,3 @@
 //     expect.equal(actual, expected);
 // });
 
-// test('testing render goblin function', (expect) => {
-//     const expected = `<div class="goblin"><p>mojo jojo</p><p id="goblin-face-1">😈</p><p id="goblin-hp-1">1</p></div>`;
-
-//     const actual = renderGoblin(goblinData[0]);
-
-//     expect.equal(actual.outerHTML, expected);
-// });
